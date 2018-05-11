@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "817591935107",
+    "firebase_url": "https://adventure-mate.firebaseio.com",
+    "project_id": "adventure-mate",
+    "storage_bucket": "adventure-mate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817591935107:android:f1760c26ddf6590f",
+        "android_client_info": {
+          "package_name": "com.example.anusara.adventuremate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817591935107-n07bfqumst4decpkspnlhb3mp50ofqjj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anusara.adventuremate",
+            "certificate_hash": "cb3e76ddd76ff0d43ad6907acfaac6b21f871752"
+          }
+        },
+        {
+          "client_id": "817591935107-3tdbu8l6i3i71veajkkh5kq3qthnqocg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8EyRAjc0nZenUdRhYmRLQwNg2qdn6lgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817591935107-3tdbu8l6i3i71veajkkh5kq3qthnqocg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
