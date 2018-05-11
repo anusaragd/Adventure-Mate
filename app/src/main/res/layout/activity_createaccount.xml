@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/create"
+    tools:context=".CreateaccountActivity">
+
+    <TextView
+        android:id="@+id/ceateaccount"
+        android:layout_width="302dp"
+        android:layout_height="44dp"
+        android:accessibilityLiveRegion="polite"
+        android:autoText="false"
+        android:gravity="center"
+        android:text="Create an account"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <EditText
+        android:id="@+id/username_create"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/email-create"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="288dp" />
+</android.support.constraint.ConstraintLayout>
